@@ -5,10 +5,10 @@ let number = Math.floor(Math.random() * 10)
 console.log("number you entered ",guess)
 console.log("correct value",number)
 if (number == guess) {
-    console.log('you lost number matched');
+    console.log('you won number matched');
 }
 else if (number !== guess) {
     console.log(`you loose number not matched`);
-    
+
 }
 
